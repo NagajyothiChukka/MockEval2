@@ -11,6 +11,9 @@ form.addEventListener("submit", function () {
             alert("Login Success, you are redirecting to quiz page");
             window.location.href = "quiz.html";
         }
+    } else {
+        alert("Please add correct email and password");
+        form.reset();
     }
 
 })
